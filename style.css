@@ -1,3 +1,4 @@
+/*ESTILOS GLOBALES*/
 *{
     padding:0;
     margin:0;
@@ -24,7 +25,55 @@ article {
     margin-top: 40%;
 }
 
+p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    width:50%;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
 
+h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom:10px;
+}
+
+
+button:hover {
+    cursor: pointer;
+    border: 1px solid #249EA1;
+    background-color: white;
+    color: #249EA1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: #249EA1;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+}
+
+input:focus { 
+    outline: none !important;
+    color:#035E63;
+    
+}
+
+/*ESTILOS IDS*/
 #login-icon{
     width: 120px;    
     height: 120px;
@@ -53,24 +102,6 @@ article {
     justify-content: center;
     flex-direction: column;
     width: 75%;
-}
-
-p{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    width:50%;
-    line-height: 1.2em;
-    margin-bottom: 20px;
-}
-
-h1{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    margin-bottom:10px;
 }
 
 #usuario{
@@ -107,16 +138,6 @@ h1{
     font-weight: 300;
 }
 
-button {
-    width: 100%;
-    padding: 10px;
-    border-radius: 8px;
-    border: 0px;
-    background-color: #249EA1;
-    margin-bottom: 10px;
-    font-family: 'Poppins', sans-serif;
-    color:white;
-}
 
 #miembro{
     font-size: 10px;
@@ -136,22 +157,56 @@ button {
     text-align: center;
 }
 
+#loginalternativo{
+    background-image: url(./assets/fondolineasseparacion-04.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 8% 12%;
+}
 
-button:hover {
-    cursor: pointer;
-    border: 1px solid #249EA1;
+#redes {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    width: 60%;
+    line-height: 1.2em;
+    margin-bottom: 0px;
+    color: black;
     background-color: white;
-    color: #249EA1;
-    width: 100%;
+}
+
+#appelandgoogle{
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 8% 12%;
+}
+
+#continuargooglebutton {
+    width: 50%;
     padding: 10px;
     border-radius: 8px;
-    margin-bottom: 8px;
+    border: 0px;
+    background-color: #249EA1;
+    margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
+    color:white;
 }
 
 
-input:focus { 
-    outline: none !important;
-    color:#035E63;
-    
-}
+/*ESTILOS CLASS*/
+
+.socialmedia{
+    width: 50px;
+    height:50px;
+   }
+
+   
