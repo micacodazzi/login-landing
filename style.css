@@ -11,7 +11,7 @@ body {
     justify-content: center;
     height: 100%;
     width: 100%;
-    background-color: white;
+    background-color: #d3ecec;
 }
 
 article {
@@ -21,7 +21,7 @@ article {
     -moz-box-shadow: 0px 0px 20px 0px #73d7d9;
     box-shadow: 0px 0px 20px 0px #73d7d9;
     border-radius: 20px;
-    background-color: #d3ecec;
+    background-color: white;
     margin-top: 20%;
     margin-bottom: 20%;
 }
